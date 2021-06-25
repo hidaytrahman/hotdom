@@ -2,17 +2,17 @@
   "name": "hotdom",
   "version": "1.0.0",
   "description": "A lightweight library for DOM manipulation on modern browser using plain JavaScript",
-  "homepage": "https://github.com/hidaytrahman/domlite#readme",
+  "homepage": "https://github.com/hidaytrahman/hotdom#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hidaytrahman/domlite"
+    "url": "https://github.com/hidaytrahman/hotdom"
   },
   "bugs": {
-    "url" : "https://github.com/hidaytrahman/domlite/issues"
+    "url" : "https://github.com/hidaytrahman/hotdom/issues"
   },
   "keywords": [
     "DOM",

@@ -1,4 +1,4 @@
-# DOMLite
+# hotdom
 
 A lightweight library for DOM manipulation on modern browser using plain javascript.
 
@@ -10,7 +10,7 @@ A lightweight library for DOM manipulation on modern browser using plain javascr
 - npm (Node.js package manager)
 
 ```
-npm install domlite --save
+npm install hotdom --save
 ```
 
 ### usage
@@ -18,7 +18,7 @@ npm install domlite --save
 #### plug in your project
 
 ```javascript
-import dom from 'domlite'
+import dom from 'hotdom'
 
 let el = dom.selectById(id);
 
