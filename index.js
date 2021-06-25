@@ -1,3 +1,3 @@
-import domlite from "./lib/domlite.js";
+import hotdom from "./lib/hotdom.js";
 
-export default domlite;
+export default hotdom;

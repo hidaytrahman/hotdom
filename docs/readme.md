@@ -1,1 +1,1 @@
-# DOM Lite - Guide
+# hotdom - Guide

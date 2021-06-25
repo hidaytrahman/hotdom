@@ -75,7 +75,7 @@ dom.findIn(main, '.sub-main');
 ```
 
 ## Contributing
-Create an [issue](https://github.com/hidaytrahman/domlite/issues/new) if you find a bug or have a suggestion or question.
+Create an [issue](https://github.com/hidaytrahman/hotdom/issues/new) if you find a bug or have a suggestion or question.
 
 If you want to develop this project:
 
