@@ -1,0 +1,28 @@
+{
+  "name": "hotdom",
+  "version": "1.0.0",
+  "description": "A lightweight library for DOM manipulation on modern browser using plain JavaScript",
+  "homepage": "https://github.com/hidaytrahman/domlite#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hidaytrahman/domlite"
+  },
+  "bugs": {
+    "url" : "https://github.com/hidaytrahman/domlite/issues"
+  },
+  "keywords": [
+    "DOM",
+    "javascript",
+    "hotdom",
+    "manipulation",
+    "dom-selector",
+    "html",
+    "es6"
+  ],
+  "author": "Hidayt Rahman (https://hidaytrahman.github.io/)",
+  "license": "MIT"
+}

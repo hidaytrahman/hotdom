@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>domlite | test</title>
+    </head>
+    <body>
+        <h1>Testing domlite</h1>
+
+        <h2 id="hidayt">Why this </h2>
+
+        <p>IU am ap arasa</p>
+        <p>IU am ap arasa</p>
+        <p class="abc tar">IU am ap arasa</p>
+        <p>IU am ap arasa</p>
+
+        <div class="parent">
+            <section class="rah">
+                        section rah
+
+                        <div class="bc">abc</div>
+            </section>
+        </div>
+    </body>
+
+    <script type="module">
+        // import DOM lite
+        import dom from "./index.js";
+
+        console.log(' dom', dom);
+
+        // select by id
+        const heading = dom.selectById("hidayt");
+
+        console.log(' heading', heading);
+
+        dom.addClass(heading, "rahman", function () {
+            console.log('wah bhai');
+        });
+
+        // select by class
+        const para = dom.selectByClass("abc");
+        console.log(' para', para);
+
+        // remove class
+        dom.removeClass(para, 'tar');
+
+
+        // hasClass
+        const paraHasA = dom.hasClass(para, 'a')
+        console.log(' paraHasA ', paraHasA);
+
+
+        const parent = dom.selectByClass('parent');
+        // find children dom
+        const f = dom.findIn(parent, '.bc');
+        console.log(' f ', f);
+
+        // find children dom
+        const headingParent = dom.parent(heading);
+        console.log(' headingParent ', headingParent);
+
+    </script>
+</html>
