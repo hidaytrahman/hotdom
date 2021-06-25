@@ -18,10 +18,13 @@
     "DOM",
     "javascript",
     "hotdom",
-    "manipulation",
+    "dom manipulation",
     "dom-selector",
     "html",
-    "es6"
+    "es6",
+    "react",
+    "angular",
+    "vue"
   ],
   "author": "Hidayt Rahman (https://hidaytrahman.github.io/)",
   "license": "MIT"
