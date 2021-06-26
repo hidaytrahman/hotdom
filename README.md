@@ -74,6 +74,12 @@ dom.findIn(main, '.sub-main');
 
 ```
 
+## Documentation
+
+[Jump here](https://github.com/hidaytrahman/hotdom/wiki)
+
+
+
 ## Contributing
 Create an [issue](https://github.com/hidaytrahman/hotdom/issues/new) if you find a bug or have a suggestion or question.
 
