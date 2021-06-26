@@ -1,6 +1,6 @@
 {
   "name": "hotdom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight library for DOM manipulation on modern browser using plain JavaScript",
   "homepage": "https://github.com/hidaytrahman/hotdom#readme",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "url": "https://github.com/hidaytrahman/hotdom"
   },
   "bugs": {
-    "url" : "https://github.com/hidaytrahman/hotdom/issues"
+    "url": "https://github.com/hidaytrahman/hotdom/issues"
   },
   "keywords": [
     "DOM",
@@ -27,5 +27,6 @@
     "vue"
   ],
   "author": "Hidayt Rahman (https://hidaytrahman.github.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
