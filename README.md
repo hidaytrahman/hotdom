@@ -12,6 +12,11 @@ A lightweight library for DOM manipulation on modern browser using plain javascr
 ```
 npm install hotdom --save
 ```
+OR
+
+```
+yarn add hotdom
+```
 
 ### usage
 
@@ -22,11 +27,11 @@ import dom from 'hotdom'
 
 let el = dom.selectById(id);
 
-dom.addClass(el, "first-class")
+dom.getAttributes(el)
 
 ```
 
-## Usecases
+## Usage
 
 ### Selector
 
@@ -35,13 +40,6 @@ __selectByClass__
 ```javascript
 const foo = dom.selectByClass('class-name');
 ```
-
-__selectById()__
-
-```javascript
-const foo = dom.selectById('foo');
-```
-
 
 ### classes
 
