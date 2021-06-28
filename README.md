@@ -41,7 +41,7 @@ __selectByClass__
 const foo = dom.selectByClass('class-name');
 ```
 
-### classes
+
 
 __addClass()__
 
@@ -72,9 +72,46 @@ dom.findIn(main, '.sub-main');
 
 ```
 
+### Utils
+
+__loadScript()__
+
+The `loadScript()` loads js file dynamically.
+
+It returns promise.
+
+Takes `path-of-file` as a argument and loads file dynamically.
+
+Example:
+```javascript
+import { loadScript } from 'hotdom'
+
+// replace path with your own
+loadScript('https://code.jquery.com/ui/1.12.1/jquery-ui.min.js)
+ .then(() => {
+
+ }).catch(() => console.error('Something went wrong.'));
+
+```
+
+__getUrlParameter()__
+
+The `getUrlParameter()` returns value of matched key.
+
+Takes `key` as a argument and returns value of matched key
+
+Example:
+```javascript
+import { getUrlParameter } from 'hotdom'
+
+// https://foo.com/?name=hidy
+const params = getUrlParameter('name'); // hidy
+
+```
+
 ## Documentation
 
-[Jump here](https://github.com/hidaytrahman/hotdom/wiki)
+[Get started](https://github.com/hidaytrahman/hotdom/wiki)
 
 
 
